@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://bad-api-assignment.reaktor.com",
+  "homepage": "silly-babbage-5d80fe.netlify.app",
   "dependencies": {
     "axios": "^0.24.0",
     "http-proxy-middleware": "^2.0.1",

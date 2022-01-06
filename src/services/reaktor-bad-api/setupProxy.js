@@ -5,8 +5,7 @@ module.exports = function (app) {
   app.use(
     createProxyMiddleware('/rps/history', {
       target: 'https://bad-api-assignment.reaktor.com',
-      changeOrigin: true,
-      secure: false
+      changeOrigin: true
     })
   );
 };
