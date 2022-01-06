@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const historyEndpoint = '/rps/history';
+const historyEndpoint = `${process.env.REACT_APP_REAKTOR_BAD_API}/rps/history`;
 
 const reaktorBadApiHistoryService = {
   getHistoryData: async () => {
